@@ -1,0 +1,29 @@
+/* Hitam & Emas theme - simple */
+:root{--bg:#0b0b0b;--card:#121212;--gold:#d4af37;--muted:#9a9a9a}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:#eee;margin:0;padding:20px}
+.topbar{background:linear-gradient(90deg,#0f0f0f,#121212);padding:12px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid #111}
+.brand{font-weight:700;color:var(--gold)}
+.toplinks a{color:var(--muted);text-decoration:none;margin-left:10px}
+.container{max-width:1000px;margin:20px auto}
+.card{background:var(--card);padding:16px;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,0.6);margin-bottom:12px}
+.grid{display:flex;gap:12px}
+.stat{flex:1;text-align:center;padding:20px}
+.big{font-size:28px;color:var(--gold)}
+.table{width:100%;border-collapse:collapse;color:#eee}
+.table th,.table td{padding:8px;border-bottom:1px solid #222;text-align:left}
+.btn{background:var(--gold);color:#111;padding:8px 12px;border:none;border-radius:6px;cursor:pointer;text-decoration:none}
+.btn.small{padding:4px 8px;font-size:13px}
+label{display:block;margin-top:8px;color:var(--muted)}
+input,textarea,select{width:100%;padding:8px;margin-top:4px;border-radius:6px;border:1px solid #222;background:#0b0b0b;color:#eee}
+.right{text-align:right;margin-top:12px}
+.login-card{width:380px;padding:20px;text-align:center}
+.center{display:flex;align-items:center;justify-content:center;height:100vh;background:var(--bg)}
+.logo{max-width:120px;margin-bottom:6px}
+.logo-sm{max-width:80px;float:left;margin-right:12px}
+.muted{color:var(--muted);font-size:13px}
+.alert{background:#2b2b2b;padding:8px;border-left:4px solid var(--gold);margin-bottom:10px}
+.invoice .head{display:flex;justify-content:space-between;align-items:flex-start}
+.invoice .to{margin-top:10px}
+.invoice .meta p{margin:0}
+.full{width:100%}
+.table thead th{background:#0c0c0c}
